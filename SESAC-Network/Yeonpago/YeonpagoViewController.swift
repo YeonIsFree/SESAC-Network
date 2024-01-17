@@ -8,20 +8,6 @@
 import UIKit
 import Alamofire
 
-struct Papago: Codable {
-    let message: PapagoResult
-}
-
-struct PapagoResult: Codable {
-    let result: PapageMessage
-}
-
-struct PapageMessage: Codable {
-    let srcLangType: String
-    let tarLangType: String
-    let translatedText: String
-}
-
 class YeonpagoViewController: UIViewController {
 
     var selectedLanguage: String = ""

@@ -27,6 +27,7 @@
 		8C76F8312B57D48000610FE6 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8302B57D48000610FE6 /* BookCollectionViewCell.swift */; };
 		8C76F8342B57DE7900610FE6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8C76F8332B57DE7900610FE6 /* Kingfisher */; };
 		8C76F8372B57E54C00610FE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8362B57E54C00610FE6 /* Model.swift */; };
+		8C76F83A2B57E82200610FE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8392B57E82200610FE6 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		8C76F82A2B57B5B200610FE6 /* identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifiable.swift; sourceTree = "<group>"; };
 		8C76F8302B57D48000610FE6 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 		8C76F8362B57E54C00610FE6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8C76F8392B57E82200610FE6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		8C76F8252B57A90700610FE6 /* Yeonpago */ = {
 			isa = PBXGroup;
 			children = (
+				8C76F8382B57E81900610FE6 /* Model */,
 				8C76F8262B57ABA500610FE6 /* Data */,
 				8C330D162B5611B700FC0632 /* YeonpagoViewController.swift */,
 				8C76F8212B57A40600610FE6 /* LanguageTableViewController.swift */,
@@ -167,6 +170,14 @@
 			isa = PBXGroup;
 			children = (
 				8C76F8362B57E54C00610FE6 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C76F8382B57E81900610FE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C76F8392B57E82200610FE6 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C76F83A2B57E82200610FE6 /* Model.swift in Sources */,
 				8C330D172B5611B700FC0632 /* YeonpagoViewController.swift in Sources */,
 				8C76F8312B57D48000610FE6 /* BookCollectionViewCell.swift in Sources */,
 				8C76F82B2B57B5B200610FE6 /* identifiable.swift in Sources */,
