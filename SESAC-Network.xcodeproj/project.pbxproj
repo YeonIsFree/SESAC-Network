@@ -26,8 +26,8 @@
 		8C76F82B2B57B5B200610FE6 /* identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F82A2B57B5B200610FE6 /* identifiable.swift */; };
 		8C76F8312B57D48000610FE6 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8302B57D48000610FE6 /* BookCollectionViewCell.swift */; };
 		8C76F8342B57DE7900610FE6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8C76F8332B57DE7900610FE6 /* Kingfisher */; };
-		8C76F8372B57E54C00610FE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8362B57E54C00610FE6 /* Model.swift */; };
-		8C76F83A2B57E82200610FE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8392B57E82200610FE6 /* Model.swift */; };
+		8C76F8372B57E54C00610FE6 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8362B57E54C00610FE6 /* BookModel.swift */; };
+		8C76F83A2B57E82200610FE6 /* YeonpagoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8392B57E82200610FE6 /* YeonpagoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +50,8 @@
 		8C76F8272B57ABB100610FE6 /* languageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageData.swift; sourceTree = "<group>"; };
 		8C76F82A2B57B5B200610FE6 /* identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifiable.swift; sourceTree = "<group>"; };
 		8C76F8302B57D48000610FE6 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
-		8C76F8362B57E54C00610FE6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		8C76F8392B57E82200610FE6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8C76F8362B57E54C00610FE6 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		8C76F8392B57E82200610FE6 /* YeonpagoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeonpagoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +169,7 @@
 		8C76F8352B57E53A00610FE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8C76F8362B57E54C00610FE6 /* Model.swift */,
+				8C76F8362B57E54C00610FE6 /* BookModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 		8C76F8382B57E81900610FE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8C76F8392B57E82200610FE6 /* Model.swift */,
+				8C76F8392B57E82200610FE6 /* YeonpagoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C76F83A2B57E82200610FE6 /* Model.swift in Sources */,
+				8C76F83A2B57E82200610FE6 /* YeonpagoModel.swift in Sources */,
 				8C330D172B5611B700FC0632 /* YeonpagoViewController.swift in Sources */,
 				8C76F8312B57D48000610FE6 /* BookCollectionViewCell.swift in Sources */,
 				8C76F82B2B57B5B200610FE6 /* identifiable.swift in Sources */,
@@ -270,7 +270,7 @@
 				8C330D2A2B56126700FC0632 /* LottoViewController.swift in Sources */,
 				8C76F8222B57A40600610FE6 /* LanguageTableViewController.swift in Sources */,
 				8C76F81C2B576D0600610FE6 /* APIKey.swift in Sources */,
-				8C76F8372B57E54C00610FE6 /* Model.swift in Sources */,
+				8C76F8372B57E54C00610FE6 /* BookModel.swift in Sources */,
 				8C330D2C2B56218E00FC0632 /* MarketViewController.swift in Sources */,
 				8C76F8242B57A5C600610FE6 /* LanguageTableViewCell.swift in Sources */,
 				8C76F8152B576AE600610FE6 /* BookViewController.swift in Sources */,
