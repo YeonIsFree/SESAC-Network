@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C330D132B5611B700FC0632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C330D122B5611B700FC0632 /* AppDelegate.swift */; };
 		8C330D152B5611B700FC0632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C330D142B5611B700FC0632 /* SceneDelegate.swift */; };
-		8C330D172B5611B700FC0632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C330D162B5611B700FC0632 /* ViewController.swift */; };
+		8C330D172B5611B700FC0632 /* YeonpagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C330D162B5611B700FC0632 /* YeonpagoViewController.swift */; };
 		8C330D1A2B5611B700FC0632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C330D182B5611B700FC0632 /* Main.storyboard */; };
 		8C330D1C2B5611B800FC0632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C330D1B2B5611B800FC0632 /* Assets.xcassets */; };
 		8C330D1F2B5611B800FC0632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C330D1D2B5611B800FC0632 /* LaunchScreen.storyboard */; };
@@ -19,13 +19,18 @@
 		8C330D532B56578000FC0632 /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C330D522B56578000FC0632 /* LottoAPIManager.swift */; };
 		8C76F8152B576AE600610FE6 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8142B576AE600610FE6 /* BookViewController.swift */; };
 		8C76F81A2B576C9600610FE6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8C76F8192B576C9600610FE6 /* .gitignore */; };
+		8C76F81C2B576D0600610FE6 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F81B2B576D0600610FE6 /* APIKey.swift */; };
+		8C76F8222B57A40600610FE6 /* LanguageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8212B57A40600610FE6 /* LanguageTableViewController.swift */; };
+		8C76F8242B57A5C600610FE6 /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8232B57A5C600610FE6 /* LanguageTableViewCell.swift */; };
+		8C76F8282B57ABB100610FE6 /* languageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F8272B57ABB100610FE6 /* languageData.swift */; };
+		8C76F82B2B57B5B200610FE6 /* identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76F82A2B57B5B200610FE6 /* identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C330D0F2B5611B700FC0632 /* SESAC-Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SESAC-Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C330D122B5611B700FC0632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C330D142B5611B700FC0632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C330D162B5611B700FC0632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C330D162B5611B700FC0632 /* YeonpagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeonpagoViewController.swift; sourceTree = "<group>"; };
 		8C330D192B5611B700FC0632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C330D1B2B5611B800FC0632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C330D1E2B5611B800FC0632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +40,11 @@
 		8C330D522B56578000FC0632 /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
 		8C76F8142B576AE600610FE6 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		8C76F8192B576C9600610FE6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8C76F81B2B576D0600610FE6 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		8C76F8212B57A40600610FE6 /* LanguageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewController.swift; sourceTree = "<group>"; };
+		8C76F8232B57A5C600610FE6 /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		8C76F8272B57ABB100610FE6 /* languageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageData.swift; sourceTree = "<group>"; };
+		8C76F82A2B57B5B200610FE6 /* identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,19 +79,80 @@
 		8C330D112B5611B700FC0632 /* SESAC-Network */ = {
 			isa = PBXGroup;
 			children = (
-				8C330D122B5611B700FC0632 /* AppDelegate.swift */,
-				8C330D142B5611B700FC0632 /* SceneDelegate.swift */,
-				8C330D292B56126700FC0632 /* LottoViewController.swift */,
-				8C330D182B5611B700FC0632 /* Main.storyboard */,
-				8C330D162B5611B700FC0632 /* ViewController.swift */,
-				8C76F8142B576AE600610FE6 /* BookViewController.swift */,
-				8C330D2B2B56218E00FC0632 /* MarketViewController.swift */,
 				8C330D1B2B5611B800FC0632 /* Assets.xcassets */,
 				8C330D1D2B5611B800FC0632 /* LaunchScreen.storyboard */,
 				8C330D202B5611B800FC0632 /* Info.plist */,
-				8C330D522B56578000FC0632 /* LottoAPIManager.swift */,
+				8C76F8202B57A3D700610FE6 /* Delegates */,
+				8C76F8292B57B5A400610FE6 /* Protocol */,
+				8C330D182B5611B700FC0632 /* Main.storyboard */,
+				8C76F82E2B57C40E00610FE6 /* Book */,
+				8C76F8252B57A90700610FE6 /* Yeonpago */,
+				8C76F82F2B57C42000610FE6 /* Market */,
+				8C76F82D2B57C3FB00610FE6 /* Lotto */,
 			);
 			path = "SESAC-Network";
+			sourceTree = "<group>";
+		};
+		8C76F8202B57A3D700610FE6 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8C330D122B5611B700FC0632 /* AppDelegate.swift */,
+				8C330D142B5611B700FC0632 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8C76F8252B57A90700610FE6 /* Yeonpago */ = {
+			isa = PBXGroup;
+			children = (
+				8C76F8262B57ABA500610FE6 /* Data */,
+				8C330D162B5611B700FC0632 /* YeonpagoViewController.swift */,
+				8C76F8212B57A40600610FE6 /* LanguageTableViewController.swift */,
+				8C76F8232B57A5C600610FE6 /* LanguageTableViewCell.swift */,
+			);
+			path = Yeonpago;
+			sourceTree = "<group>";
+		};
+		8C76F8262B57ABA500610FE6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8C76F8272B57ABB100610FE6 /* languageData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8C76F8292B57B5A400610FE6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8C76F82A2B57B5B200610FE6 /* identifiable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		8C76F82D2B57C3FB00610FE6 /* Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				8C330D522B56578000FC0632 /* LottoAPIManager.swift */,
+				8C330D292B56126700FC0632 /* LottoViewController.swift */,
+			);
+			path = Lotto;
+			sourceTree = "<group>";
+		};
+		8C76F82E2B57C40E00610FE6 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				8C76F81B2B576D0600610FE6 /* APIKey.swift */,
+				8C76F8142B576AE600610FE6 /* BookViewController.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		8C76F82F2B57C42000610FE6 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				8C330D2B2B56218E00FC0632 /* MarketViewController.swift */,
+			);
+			path = Market;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C330D172B5611B700FC0632 /* ViewController.swift in Sources */,
+				8C330D172B5611B700FC0632 /* YeonpagoViewController.swift in Sources */,
+				8C76F82B2B57B5B200610FE6 /* identifiable.swift in Sources */,
+				8C76F8282B57ABB100610FE6 /* languageData.swift in Sources */,
 				8C330D2A2B56126700FC0632 /* LottoViewController.swift in Sources */,
+				8C76F8222B57A40600610FE6 /* LanguageTableViewController.swift in Sources */,
+				8C76F81C2B576D0600610FE6 /* APIKey.swift in Sources */,
 				8C330D2C2B56218E00FC0632 /* MarketViewController.swift in Sources */,
+				8C76F8242B57A5C600610FE6 /* LanguageTableViewCell.swift in Sources */,
 				8C76F8152B576AE600610FE6 /* BookViewController.swift in Sources */,
 				8C330D132B5611B700FC0632 /* AppDelegate.swift in Sources */,
 				8C330D152B5611B700FC0632 /* SceneDelegate.swift in Sources */,

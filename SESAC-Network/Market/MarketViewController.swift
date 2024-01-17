@@ -28,7 +28,6 @@ class MarketViewController: UIViewController {
         marketTableView.delegate = self
 
     }
-    
 }
 
 extension MarketViewController: UITableViewDelegate, UITableViewDataSource {
